@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = import.meta.env.VITE_API_BASE;
 
 // A custom hook — any component that calls useGroupData() gets
 // the same live data and the same refresh functions, without
